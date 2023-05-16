@@ -1,0 +1,19 @@
+.main-emprendedoras {
+  display: grid;
+}
+
+.container-emprendedoras {
+  display: grid;
+  grid-template-rows: repeat(2, 140px);
+  grid-template-columns: repeat(4, 150px);
+  gap: 50px;
+  justify-content: center;
+  margin: 70px;
+}
+
+.cont-emp-img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=emprendedoras.css.map */

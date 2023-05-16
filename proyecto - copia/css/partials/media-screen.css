@@ -1,0 +1,47 @@
+@media screen and (max-width: 425px) {
+  nav ul {
+    display: none;
+  }
+  .hamburguer {
+    display: block;
+    background-color: rgb(248, 203, 166);
+    height: 27px;
+  }
+  .section-info {
+    flex-direction: column;
+  }
+  .section-info img {
+    width: 100%;
+  }
+  .container-index {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-emprendedoras {
+    display: grid;
+    grid-template-rows: repeat(2, 140px);
+    grid-template-columns: repeat(2, 150px);
+    gap: 40px;
+    justify-content: center;
+    margin: 40px;
+  }
+  .formulario {
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 20%;
+    gap: 10px;
+  }
+  .quienes-somos {
+    width: 100%;
+    margin: 25px;
+  }
+}
+.container-rubros {
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=media-screen.css.map */
